@@ -1,0 +1,3 @@
+<?php 
+    montaTitulo('Eventos Realizados'); 
+?>

@@ -1,0 +1,154 @@
+body{
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100%;
+    display: block;
+    margin: -72px auto -200px;
+    padding-top: 52px;
+}
+
+/*Bread Crumb*/
+.section{ 
+    text-transform:capitalize;
+}
+
+
+footer{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    background: lightgrey;
+    left:0;
+    right: 0;
+    padding: 5px 20px 5px 20px;
+}
+
+.row first{
+    margin-bottom: 40px;
+}
+
+.navbar-inverse .navbar-brand{
+    color: #FF8802;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    font-weight: 700;
+    color: #BBB;
+}
+
+.main .push {
+    height: 200px;
+}
+
+.breadcrumb{
+    background-color: white;
+}
+
+
+
+#main {
+    margin: 0px auto;
+    padding: 20px;
+    width: 90%;
+    background-color: white;
+    min-height: calc(100% - 252px);
+}
+
+.login {
+    width: 50%;
+}
+
+.rodape{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navbar {
+    border-radius:0px !important;
+}
+
+.link-noticia, .link-noticia:hover {
+    color:  inherit;
+    text-decoration:  inherit;
+}
+
+.row.titulo{
+    text-align: center;
+}
+
+.row.text{
+    margin: 15px;
+    text-align: justify;
+}
+
+.row.author-date {
+    margin: 15px;
+    text-align: right;
+}
+
+.form-horizontal.frmEvento span {
+    display:block;
+    margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+          transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%;
+}
+div.item{
+    background-size: cover;
+}
+
+input,select {
+    height : 35px;
+}
+
+
